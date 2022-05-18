@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 	<head>
 		<title>main</title>
@@ -46,7 +46,7 @@
 
 			.topmenu {
 				list-style:none;
-				width:99%;
+				width:99.1%;
 				background: black;
 				padding:10px;
 				text-align:center;
@@ -62,7 +62,7 @@
 
 			/* 링크 */
 
-			a {
+			.topmenu li a {
 				font:1.5em "Times New";
 				color:#fff;
 				text-decoration:none;
@@ -70,7 +70,7 @@
 
 			/* 링크 작동시 */
 
-			a:hover {
+			.topmenu li a:hover {
 				color:#ff3;
 			}
 
@@ -87,6 +87,7 @@
 				font:15pt "맑은 고딕", 돋움;
 				color:black;
 				width:70%;
+				height: 100%;
 				background-color:white;
 				border:4px solid black;
 				border-radius:10px;
@@ -169,33 +170,22 @@
 				margin: -15px 0px 0px -370px;
 			}
 
-			.line {
-				position: relative;
-				left: 50%;
-				border: 1px solid black;
-				width: 0.1px;
-				height: 200px;
+			.board_Left {
+				float: left;
+				margin-left: 26%;
+				margin-right: 200px;
 			}
 
-			.table_Free {
-				position: relative;
-				border: 10px black;
+			.board_Free td{
+				width: 200px;
+				background-color:white;
+				border-bottom:1px solid black;
 			}
 
-			.tagmenu {
-				position: relative;
-				left:10%;
-				list-style:none;
-				width:99%;
-				padding:10px;
-				text-align:left;
+			.comp li {
+				display: inline;
+				font-size: 9pt;
 			}
-
-			.resultView {
-				text-align: center;
-				height: 500px;
-			}
-
 
 		</style>
 		<header>
@@ -221,10 +211,27 @@
 			</ul>
 		</nav>		
 			<div class="sell_body">
-				<h4>검색 결과</h4>
+				<h4>책 읽는 사람이 세상을 바꾼다. 지식정보 동의문고가 만들어갑니다</h4>
 				<hr>
-				<div class="resultView">
-					<p>결과</p>
+				<div>
+					<ul class="comp">
+						<li>고객과 함께하는 지식 문화공간<br>
+							동의문고는 2022년 부산에 위치한 미래관 내에 있으며 고객 여러분과 함께하는 편안한 문화공간을 제공하고 있습니다.</li><br>
+						<li>즐겁고 유익한 이벤트가 함께하려는 문화공간<br>
+							동의문고는 다양한 도서를 준비하기 위해 힘쓰고 있으며, 고객분들게 최상의 서비스를 제공할 것이고, 다양한 문화활동을 준비하요 뛰어난 문화공간으로 자리하고 싶습니다.</li><br>
+						<li>기업과 고객이 믿음으로 함께하는 문화공간<br>
+							동의문고는 다양한 문화행사와 이벤트를 준비하여, 책뿐만 아니라 문화를 전파하는 문화 허브 기업이로서 고객여러분들께 대한민국 대표 문화공간으로 자리매김 하도록 하겠습니다.</li><br>
+					<h3>오시는 길</h4>
+					<hr>
+						<li>주소: 부산광역시 부산진구 양지로 54 미래관 7층 702호</li><br>
+						<li>TEL: 051-852-0011~3/051-860-3114</li><br>
+					<h3>버스 및 지하철</h3>
+						<li>양정지하철역(2번출구) 정류장 하차: 5, 62, 141, 5-1, 20, 57, 63</li><br>
+						<li>양정교차로 정류장 하차: 62, 1005, 141, 81</li><br>
+						<li>영정 정류장 하차: 110-1, 99, 129, 87, 86
+							부산진구7번 버스이용</li><br>
+						<li>부산 1호선 지하철 양정역하차(2번출구)</li><br>
+					</ul>
 				</div>
 			</div>
 	</body>
